@@ -36,9 +36,9 @@ using namespace std;
 
 #define N_eps 200 // Number of energy points with logarithmic resolution
 #define N_band 4  //Number of energy bands in which light curves are extracted
-#define N_shell 10 //Number of shell propagation delays
-#define N_seg 100 // Number of time segments for each shell propagation delay
-#define N_theta 100   // Number of angular points over which the angular integration is performed. I have used logarithmic resolution to increase the speed of integration
+#define N_shell 25 //Number of shell propagation delays
+#define N_seg 1000 // Number of time segments for each shell propagation delay
+#define N_theta 2000   // Number of angular points over which the angular integration is performed. I have used logarithmic resolution to increase the speed of integration
 #define theta_min 1.e-3  // Minimum value of theta (on-axis)
 #define theta_max PI/2.  // Maximum value of theta (off-axis)
 #define step_seg 0.010   //The time resolution of the light curve for each value of r0(or t0)
